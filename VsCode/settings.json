@@ -1,0 +1,13 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "git.enableSmartCommit": true,
+
+    // Controls the font family.
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+
+    // Controls how the editor should render whitespace characters, possibilities are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
+    "editor.renderWhitespace": "all"
+
+}

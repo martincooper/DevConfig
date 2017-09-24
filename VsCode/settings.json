@@ -1,13 +1,42 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Visual Studio Dark",
 
-    // Controls the font family.
-    "editor.fontFamily": "Fira Code",
+    // OSX = 13, Windows = 12
     "editor.fontSize": 13,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontWeight": "normal",
     "editor.fontLigatures": true,
 
-    // Controls how the editor should render whitespace characters, possibilities are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
-    "editor.renderWhitespace": "all"
+    "git.enableSmartCommit": true,
 
+    // Controls how the editor should render whitespace characters, possibilities are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
+    "editor.renderWhitespace": "all",
+
+    // OSX = 13, Windows = 12
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "Input Mono",
+    "terminal.integrated.fontLigatures": false,
+    "terminal.integrated.enableBold": false,
+
+    // Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+        // IDE's
+        "**/.idea/" : true,
+
+        // C#
+        "**/bin/**" : true,
+        "**/obj/**" : true,
+        "**/StyleCop.Cache" : true,
+
+        // SCM
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+
+        // Web
+        "**/node_modules/" : true
+    }
 }
